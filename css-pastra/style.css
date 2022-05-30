@@ -29,7 +29,7 @@ body{
 .header::before{
     content: '';
     height: 100%;
-    background-image: url('/imagem/moeda-bitcoin.jpg');
+    background-image: url('https://jonatham-malaquias.github.io/site-bitcoin/imagem/moeda-bitcoin.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 0px;
@@ -173,7 +173,7 @@ span{
 .corpo .center .informacao1 .imagem{
     height: 232px;
     width: 216px;
-    background-image: url('/imagem/pexels-daniel-dan-7708806-removebg-preview.png');
+    background-image: url('https://jonatham-malaquias.github.io/site-bitcoin/imagem/pexels-daniel-dan-7708806-removebg-preview.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: -15px;
@@ -209,7 +209,7 @@ span{
 .corpo .center .informacao2 .imagem{
     height: 232px;
     width: 216px;
-    background-image: url('/imagem/barra-trader-removebg-preview.png');
+    background-image: url('https://jonatham-malaquias.github.io/site-bitcoin/imagem/barra-trader-removebg-preview.png');
     background-repeat: no-repeat;
     /* border: 1px solid #fff; */
     margin-right: 30px;
@@ -246,7 +246,7 @@ span{
 .corpo .center .informacao3 .imagem{
     height: 232px;
     width: 216px;
-    background-image: url('/imagem/grafico.png');
+    background-image: url('https://jonatham-malaquias.github.io/site-bitcoin/imagem/grafico.png');
     background-repeat: no-repeat;
     background-position: -30px;
     background-size: cover;
@@ -504,7 +504,7 @@ span{
     .corpo .center .informacao1 .imagem{
         height: 232px;
         width: 216px;
-        background-image: url('/imagem/pexels-daniel-dan-7708806-removebg-preview.png');
+        background-image: url('https://jonatham-malaquias.github.io/site-bitcoin/imagem/pexels-daniel-dan-7708806-removebg-preview.png');
         background-repeat: no-repeat;
         border: 1px solid #fff;
     }
@@ -547,7 +547,7 @@ span{
     .corpo .center .informacao2 .imagem{
         height: 232px;
         width: 216px;
-        background-image: url('/imagem/barra-trader-removebg-preview.png');
+        background-image: url('https://jonatham-malaquias.github.io/site-bitcoin/imagem/barra-trader-removebg-preview.png');
         background-repeat: no-repeat;
         border: 1px solid #fff;
         margin-right: 0px;
@@ -588,7 +588,7 @@ span{
     .corpo .center .informacao3 .imagem{
         height: 232px;
         width: 216px;
-        background-image: url('/imagem/grafico.png');
+        background-image: url('https://jonatham-malaquias.github.io/site-bitcoin/imagem/grafico.png');
         background-repeat: no-repeat;
         background-position: -30px;
         background-size: cover;
