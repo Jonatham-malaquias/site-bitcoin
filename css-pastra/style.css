@@ -1,0 +1,687 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.12,
+* Autoprefixer: v10.4.4
+* Browsers: last 4 version
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: none !important;
+    
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow-x: hidden;
+}
+
+/* ---------------------------- header------------------------- */
+.header{
+    position: relative;
+    height: 787px;
+    width: 100%;
+}
+.header::before{
+    content: '';
+    height: 100%;
+    background-image: url('/imagem/moeda-bitcoin.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0px;
+    margin-top: -200px;
+    position: absolute;
+    top: 0;
+    left: 0; right: 0;
+    bottom: 0;
+    opacity: .3;
+}
+
+.center{
+    height: 100%;
+    width: 81%;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    position: relative;
+    z-index: 10;
+}
+
+.header .center .sloga-divtexto{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    margin-top: 200px;
+}
+
+.header .center .sloga-divtexto .slogan{
+    margin-right: 50px;
+}
+
+.header .center .sloga-divtexto .slogan,
+.header .center .sloga-divtexto .divtexto{
+    width: 474px;
+    /* border: 1px solid #fff; */
+}
+
+.header .center .sloga-divtexto .slogan,
+.header .center .sloga-divtexto .divtexto .texto{
+    font-size: 50px;
+    font-weight: bold;
+    color: #ecdfa8;
+}
+
+span{
+    color: #727200;
+}
+
+.header .center .sloga-divtexto .formulario{
+    width: 100%;
+    /* border: 1px solid #fff; */
+}
+
+.header .center .sloga-divtexto .formulario label{
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.header .center .sloga-divtexto .formulario input{
+    height: 40px;
+    width: 100%;
+
+    font-size: 20px;
+
+    border-radius: 20px;
+    border: none;
+    outline: none;
+
+    padding-left: 15px;
+}
+.header .center .sloga-divtexto .formulario input:nth-child(4){
+    margin-bottom: 20px;
+}
+
+.btn{
+    width: 400px;
+    height: 60px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 60px;
+
+    font-size: 30px;
+    text-decoration: none;
+    color: #000;
+
+    background-color: #ecdfa8;
+    border-radius: 30px;
+
+    display: block;
+
+    margin: 0 auto;
+
+    -webkit-transition: .5s;
+
+    -o-transition: .5s;
+
+    transition: .5s;
+}
+.btn:hover{
+    background-color: #ddcb7b;
+}
+/* ----------------------------fim header------------------------- */
+
+/* -------------------------------corpo-------------------------------- */
+.corpo .center {
+    margin-top: 20px;
+}
+.corpo .center .informacao1{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 20px;
+    /* border: 1px solid #fff; */
+}
+.corpo .center .informacao1 .pergunta1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #ecdfa8;
+}
+
+.corpo .center .informacao1 .resposta1{
+    font-size: 20px;
+    /* border: 1px solid red; */
+    width: 600px;
+    color: #fff;
+    margin-right: 30px;
+}
+
+.corpo .center .informacao1 .imagem{
+    height: 232px;
+    width: 216px;
+    background-image: url('/imagem/pexels-daniel-dan-7708806-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -15px;
+    /* border: 1px solid #fff; */
+}
+/* --------------------------------------------- */
+.corpo .center .informacao2{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 20px;
+    /* border: 1px solid #fff; */
+}
+
+.corpo .center .informacao2 .pergunta2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #ecdfa8;
+}
+
+.corpo .center .informacao2 .resposta2{
+    font-size: 20px;
+    /* border: 1px solid red; */
+    width: 600px;
+    color: #fff;
+}
+
+.corpo .center .informacao2 .imagem{
+    height: 232px;
+    width: 216px;
+    background-image: url('/imagem/barra-trader-removebg-preview.png');
+    background-repeat: no-repeat;
+    /* border: 1px solid #fff; */
+    margin-right: 30px;
+}
+
+/* --------------------------------------------- */
+
+.corpo .center .informacao3{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 20px;
+    /* border: 1px solid #fff; */
+}
+.corpo .center .informacao3 .pergunta3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #ecdfa8;
+}
+
+.corpo .center .informacao3 .resposta3{
+    font-size: 20px;
+    /* border: 1px solid red; */
+    width: 600px;
+    color: #fff;
+    margin-right: 30px;
+}
+
+.corpo .center .informacao3 .imagem{
+    height: 232px;
+    width: 216px;
+    background-image: url('/imagem/grafico.png');
+    background-repeat: no-repeat;
+    background-position: -30px;
+    background-size: cover;
+    /* border: 1px solid #fff; */
+}
+
+.btn:nth-child(2){
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1366px) {
+    .header{
+        height: 625px;
+    }
+
+    .center{
+        width: 81%;
+    }
+
+    .corpo .center{
+        margin-top: -200px;
+    }
+}
+
+
+@media screen and (max-width: 1250px) {
+    /* ---------------------------- header------------------------- */
+    .header .center .sloga-divtexto{
+        margin-top: 50px;
+    }
+
+    .corpo .center{
+        margin-top: -230px;
+    }
+}
+
+
+@media screen and (max-width: 1070px) {
+    body{
+        overflow-x: hidden;
+    }
+/* ---------------------------- header------------------------- */
+
+    .center{
+        width: 91%;
+    }
+
+    .header .center .sloga-divtexto{
+        margin-top: 80px;
+    }
+
+    .header .center .sloga-divtexto .slogan{
+        margin-right: 30px;
+    }
+
+    .header .center .sloga-divtexto .slogan,
+    .header .center .sloga-divtexto .divtexto{
+        width: 400px;
+        min-width: 300px;
+        border: 1px solid #fff;
+    }
+
+    .header .center .sloga-divtexto .slogan,
+    .header .center .sloga-divtexto .divtexto .texto{
+        font-size: 40px;
+        font-weight: bold;
+        color: #ecdfa8;
+    }
+
+    .header .center .sloga-divtexto .formulario label{
+        font-size: 25px;
+    }
+
+    .header .center .sloga-divtexto .formulario input{
+        height: 35px;
+    }
+    .header .center .sloga-divtexto .formulario input:nth-child(4){
+        margin-bottom: 15px;
+    }
+
+    .header .center .sloga-divtexto .formulario .btn{
+        height: 45px;
+        line-height: 45px;
+        width: 300px;
+    }
+    /* ----------------------------fim header------------------------- */
+
+    /* -------------------------------corpo-------------------------------- */
+
+    .corpo .center .informacao1 .resposta1{
+        font-size: 20px;
+        border: 1px solid red;
+        width: 300px;
+        color: #fff;
+        margin-right: 30px;
+    }
+    /* --------------------------------------------- */
+
+    .corpo .center .informacao2 .resposta2{
+        font-size: 20px;
+        border: 1px solid red;
+        width: 300px;
+        color: #fff;
+    }
+
+    /* --------------------------------------------- */
+
+    .corpo .center .informacao3 .resposta3{
+        font-size: 20px;
+        border: 1px solid red;
+        width: 300px;
+        color: #fff;
+        margin-right: 30px;
+    }
+    
+}
+
+@media screen and (max-width: 990px) {
+    body{
+        overflow-x: hidden;
+    }
+    /* -------------------------------corpo-------------------------------- */
+    .corpo .center {
+        margin-top: -140px;
+    }
+}
+
+
+@media screen and (max-width: 870px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    .corpo .center {
+        margin-top: -150px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    
+/* ---------------------------- header------------------------- */
+    body{
+        overflow-x: hidden;
+    }
+    .header{
+        position: relative;
+        height: 550px;
+        width: 100%;
+    }
+
+    .center{
+        width: 91%;
+    }
+
+    .header .center .sloga-divtexto{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin-top: 20px;
+    }
+
+    .header .center .sloga-divtexto .slogan{
+        margin-right: 0px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .header .center .sloga-divtexto .slogan,
+    .header .center .sloga-divtexto .divtexto{
+        width: 300px;
+        border: 1px solid #fff;
+    }
+
+    .header .center .sloga-divtexto .slogan,
+    .header .center .sloga-divtexto .divtexto .texto{
+        font-size: 20px;
+    }
+
+    .header .center .sloga-divtexto .formulario{
+        margin-top: 10px;
+    }
+
+    .header .center .sloga-divtexto .formulario label{
+        font-size: 18px;
+    }
+
+    .header .center .sloga-divtexto .formulario input{
+        height: 35px;
+    }
+    .header .center .sloga-divtexto .formulario input:nth-child(4){
+        margin-bottom: 20px;
+    }
+
+    .header .center .sloga-divtexto .formulario .btn{
+        width: 100%;
+        font-size: 22px;
+    }
+
+    /* -------------------------------corpo-------------------------------- */
+    .corpo .center {
+        margin-top: -130px;
+    }
+    .corpo .center .informacao1{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        margin-bottom: 20px;
+        border: 1px solid #fff;
+    }
+    .corpo .center .informacao1 .pergunta1{
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+
+        margin-bottom: 10px;
+        color: #ecdfa8;
+    }
+
+    .corpo .center .informacao1 .resposta1{
+        font-size: 20px;
+        border: 1px solid red;
+        width: 100%;
+        text-align: center;
+
+        color: #fff;
+        margin-right: 0px;
+    }
+
+    .corpo .center .informacao1 .imagem{
+        height: 232px;
+        width: 216px;
+        background-image: url('/imagem/pexels-daniel-dan-7708806-removebg-preview.png');
+        background-repeat: no-repeat;
+        border: 1px solid #fff;
+    }
+    /* --------------------------------------------- */
+    .corpo .center .informacao2{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin-bottom: 20px;
+        border: 1px solid #fff;
+    }
+
+    .corpo .center .informacao2 .pergunta2{
+        margin-bottom: 10px;
+
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+
+        color: #ecdfa8;
+    }
+
+    .corpo .center .informacao2 .resposta2{
+        font-size: 20px;
+        border: 1px solid red;
+        width: 100%;
+        text-align: center;
+        color: #fff;
+    }
+
+    .corpo .center .informacao2 .imagem{
+        height: 232px;
+        width: 216px;
+        background-image: url('/imagem/barra-trader-removebg-preview.png');
+        background-repeat: no-repeat;
+        border: 1px solid #fff;
+        margin-right: 0px;
+    }
+
+    /* --------------------------------------------- */
+
+    .corpo .center .informacao3{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        margin-bottom: 20px;
+        border: 1px solid #fff;
+    }
+    .corpo .center .informacao3 .pergunta3{
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+
+        margin-bottom: 10px;
+        color: #ecdfa8;
+    }
+
+    .corpo .center .informacao3 .resposta3{
+        font-size: 20px;
+        border: 1px solid red;
+        width: 100%;
+        text-align: center;
+
+        color: #fff;
+        margin-right: 0px;
+    }
+
+    .corpo .center .informacao3 .imagem{
+        height: 232px;
+        width: 216px;
+        background-image: url('/imagem/grafico.png');
+        background-repeat: no-repeat;
+        background-position: -30px;
+        background-size: cover;
+        border: 1px solid #fff;
+    }
+
+    .btn:nth-child(2){
+        width: 80%;
+        margin-bottom: 100px;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+    .btn:nth-child(2){
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    body{
+        overflow-x: hidden;
+    }
+    .header{
+        position: relative;
+        height: 515px;
+        width: 100%;
+    }
+
+    .center{
+        width: 91%;
+    }
+
+    .header .center .sloga-divtexto{
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin-top: 20px;
+    }
+
+    .header .center .sloga-divtexto .slogan{
+        margin-right: 0px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .header .center .sloga-divtexto .slogan,
+    .header .center .sloga-divtexto .divtexto{
+        width: 100%;
+        border: 1px solid red;
+    }
+
+    .header .center .sloga-divtexto .slogan,
+    .header .center .sloga-divtexto .divtexto .texto{
+        font-size: 20px;
+    }
+
+    .header .center .sloga-divtexto .formulario{
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .header .center .sloga-divtexto .formulario label{
+        font-size: 18px;
+    }
+
+    .header .center .sloga-divtexto .formulario input{
+        height: 35px;
+        width: 100%;
+    }
+    .header .center .sloga-divtexto .formulario input:nth-child(4){
+        margin-bottom: 20px;
+    }
+
+    .header .center .sloga-divtexto .formulario .btn{
+        width: 100%;
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .btn:nth-child(2){
+        font-size: 16px;
+    }
+}
